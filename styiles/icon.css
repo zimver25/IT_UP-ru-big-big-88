@@ -1,0 +1,26 @@
+@import url(all.min.css);
+@import url(fonts.css);
+
+
+
+.sign::before{
+    content: '\f277';
+    color: #fff;
+    font-family: Fontawesome_Light;
+}
+
+.cart{
+    transition: 300ms;
+    opacity: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cart::before{
+    position: absolute;
+    content: '\f217';
+    color: #fff;
+    font-family: 'Fontawesome_Light';
+    font-size: 62px;
+}
